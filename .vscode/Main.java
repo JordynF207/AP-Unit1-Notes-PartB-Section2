@@ -44,6 +44,13 @@ public class Main {
      */ 
     double other_rand = (int) (Math.random() * 9) + 1;
     System.out.println(other_rand);
+
+
+
+    // testing out our pizza object
+    // initalize an object from our class
+    Pizza firstPizza = new Pizza();
+    System.out.println(firstPizza.isBaked);
    
    }
 
