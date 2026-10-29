@@ -6,6 +6,7 @@ public class Pizza {
     boolean hasChicken;
     boolean hasPineapple;
     boolean isBaked;
+    boolean isSold;
     
 
     double price;
@@ -40,6 +41,12 @@ public class Pizza {
     public void bakePizza() {
         isBaked = true;
         System.out.println("Your pizza is hot and ready!");
+
+    }
+
+    public void sellPizza() {
+        isSold = true;
+        System.out.println("You are good to pay");
     }
     
 
